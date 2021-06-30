@@ -1,0 +1,12 @@
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+"""n=int(input())
+str=""
+l=[]
+for i in range(n):
+    d=input()
+    l.append(d)
+   # print(str.join(l))
+print(str.join(l))"""
+for i in range(int(input())):
+    s = input()
+    print(s[::2], s[1::2])
