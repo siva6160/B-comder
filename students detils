@@ -1,0 +1,13 @@
+class Student:
+    def __init__(self,name,roll,emai,marks,dep):
+        self.name=name
+        self.roll=roll
+        self.email=emai
+        self.marks=marks
+        self.dep=dep
+    def display(self):
+        print(self.name,self.roll,self.email,self.marks,self.dep)
+s=Student("siva","19p31a0461","19p31a0461@acet.ac.in",66,"ECE")
+s1=Student("kiriti","19p31a0401","19p31a0401@acet.ac.in",401,"ECE")
+s.display()
+s1.display()
