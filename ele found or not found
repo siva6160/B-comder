@@ -1,0 +1,9 @@
+n=int(input())
+data=list(map(int,input().split()))
+key=int(input())
+for i in data:
+    if i==key:
+        print("found")
+        break
+else:
+   print("not found")
