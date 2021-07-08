@@ -1,0 +1,11 @@
+def issort(n,data,key):
+    for i in data:
+        if i==key:
+            return True
+    else:
+        return False
+n=int(input())
+data=list(map(int,input().split()))
+key=int(input())
+s=issort(n, data, key)    
+print(s)
