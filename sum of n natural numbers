@@ -1,0 +1,5 @@
+sm=0
+n=int(input())
+for i in range(n+1):
+    sm=sm+(i*i)
+print(sm)
