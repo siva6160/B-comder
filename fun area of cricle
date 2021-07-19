@@ -1,0 +1,8 @@
+def area(r,pi):
+    area1=pi*(r*r)
+    return area1
+r=int(input())
+pi=3.14
+print(area(r,pi))
+
+#print(area)
