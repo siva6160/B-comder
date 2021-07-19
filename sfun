@@ -1,0 +1,8 @@
+def sumnatural(n):
+    sm=0
+    for i in range(n+1):
+        sm=sm+(i*i)
+    print(sm)
+n=int(input())
+a=sumnatural(n)
+#print(a)
